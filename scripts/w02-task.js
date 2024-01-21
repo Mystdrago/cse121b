@@ -37,17 +37,17 @@ let newFavoriteFood = 'Burrito';
 favFoods.push(newFavoriteFood);
 
 const newFoodItem = document.createElement('div');
-newFoodItem.textContent = `New Favorite Food Added: ${newFavoriteFood}`;
+newFoodItem.textContent = `${newFavoriteFood}`;
 favFoodsElement.appendChild(newFoodItem);
 
 favFoods.shift();
 
 const removedFoodItem = document.createElement('div');
-removedFoodItem.textContent = `First Favorite Food Removed: ${favFoods[0]}`;
+removedFoodItem.textContent = `${favFoods[0]}`;
 favFoodsElement.appendChild(removedFoodItem);
 
 favFoods.pop();
 
 const lastRemovedFoodItem = document.createElement('div');
-lastRemovedFoodItem.textContent = `Last Favorite Food Removed: ${favFoods[favFoods.length - 1]}`;
+lastRemovedFoodItem.textContent = `${favFoods[favFoods.length - 1]}`;
 favFoodsElement.appendChild(lastRemovedFoodItem);
