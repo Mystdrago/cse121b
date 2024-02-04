@@ -6,7 +6,7 @@
 
 let fullName = 'James Curtis Halls II';
 let currentYear = new Date().getFullYear();
-let profilePicture = 'images/my face.jpg';
+let profilePicture = 'images/my-face.jpg';
 
 
 /* Step 3 - Element Variables */
