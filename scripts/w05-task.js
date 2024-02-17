@@ -44,7 +44,7 @@ const filterTemples = (temples) => {
     const filter = document.querySelector("#filtered").value;
     
     switch(filter) {
-        case "utah":
+        case "utah": 
             displayTemples(temples.filter(temple => temple.location.includes("Utah")));
             break;
         case "notutah":
