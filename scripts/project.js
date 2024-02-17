@@ -8,14 +8,14 @@ const displayWeapons = (weapons) => {
         const article = document.createElement('article');
         
         const h3 = document.createElement('h3');
-        h3.textContent = weapon.weaponName;
+        h3.textContent = weapon.weaponName + ", Range:" + weapon.range + " Squares, Damage: " + weapon.damage + "d6, Price:" + weapon.price + "Gp.";
         
         const img = document.createElement('img');
         img.src = weapon.imageUrl;
-        img.alt = weapon.location;
+        img.alt = weapon.weaponName;
         
-        article.appendChild(h3);
         article.appendChild(img);
+        article.appendChild(h3);
         
         weaponsElement.appendChild(article);
     });

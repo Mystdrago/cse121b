@@ -1,7 +1,7 @@
 [
     {
         "weaponName": "Long Sword",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hand-and-a-Half_Sword_MET_DP146428.jpg",
+        "imageUrl": "images/Longsword.jpg",
         "type": "Swords",
         "damage": "Tearing",
         "range": 1,
@@ -11,7 +11,7 @@
     },
     {
         "weaponName": "Short Sword",
-        "imageUrl": "https://www.goblinsmith.com/cdn/shop/products/Norrick-Shortsword-3_1024x1024.jpg?v=1651037875",
+        "imageUrl": "images/Shortsword.jpg",
         "type": "Swords",
         "damage": "Crushing",
         "range": 1,
@@ -21,7 +21,7 @@
     },
     {
         "weaponName": "Spear",
-        "imageUrl": "https://m.media-amazon.com/images/I/51rUoX7PaIL.jpg",
+        "imageUrl": "images/Spear.jpg",
         "type": "Polearms",
         "damage": "Penetrating",
         "range": 2,
@@ -31,7 +31,7 @@
     },
     {
         "weaponName": "Poleaxe",
-        "imageUrl": "https://www.darkknightarmoury.com/wp-content/uploads/2019/10/600640.jpg",
+        "imageUrl": "images/Polearm.jpg",
         "type": "Polearms",
         "damage": "Tearing",
         "range": 2,
@@ -41,7 +41,7 @@
     },
     {
         "weaponName": "Bo Staff",
-        "imageUrl": "https://www.seka-sports.com/cdn/shop/products/wooden-red-bo-staff_1200x1200.jpg?v=1572972688",
+        "imageUrl": "images/Bo-staff.jpg",
         "type": "Staves",
         "damage": "Crushing",
         "range": 2,
@@ -51,7 +51,7 @@
     },
     {
         "weaponName": "Club",
-        "imageUrl": "https://as1.ftcdn.net/v2/jpg/02/73/71/18/1000_F_273711876_HVdbERjXLbwdaEGpsjVQGwrvXN6mGGFO.jpg",
+        "imageUrl": "images/Club.jpg",
         "type": "Staves",
         "damage": "Crushing",
         "range": 1,
@@ -61,7 +61,7 @@
     },
     {
         "weaponName": "Short Bow",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB0iNfBC8kjatCyib2LGAGLLpCO8lJwASIww&usqp=CAU",
+        "imageUrl": "images/Shortbow.jpg",
         "type": "Bows",
         "damage": "Penetrating",
         "range": 5,
@@ -71,7 +71,7 @@
     },
     {
         "weaponName": "Long Bow",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFImGZjojjJsJqLn5MppTMJPX1HRJ4lcrgHA&usqp=CAU",
+        "imageUrl": "images/Longbow.jpg",
         "type": "Bows",
         "damage": "Penetrating",
         "range": 7,
@@ -81,7 +81,7 @@
     },
     {
         "weaponName": "Light Crossbow",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLW55-yb2EhecSYv58ZeBIlw92867M9plMzQ&usqp=CAU",
+        "imageUrl": "images/Light Crossbow.jpg",
         "type": "Crossbows",
         "damage": "Penetrating",
         "range": 5,
@@ -91,7 +91,7 @@
     },
     {
         "weaponName": "Heavy Crossbow",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNFxhKAP6Q5yE7KptW4Ks1oSBULSRzuxi0HXOgJWDEgPXciVkekPawLGE4CdPPJ3rP3qU&usqp=CAU",
+        "imageUrl": "images/Heavy Crossbow.jpg",
         "type": "Crossbows",
         "damage": "Penetrating",
         "range": 7,
