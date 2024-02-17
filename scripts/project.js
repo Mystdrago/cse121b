@@ -47,7 +47,7 @@ const filterweapons = (weapons) => {
             displayWeapons(weapons);
             break;
         case  "One Handed":
-            displayWeapons(weapons.filter(weapon => !weapon.handsToWield === 2));
+            displayWeapons(weapons.filter(weapon => weapon.handsToWield === 1));
             break;
         case  "Two Handed":
             displayWeapons(weapons.filter(weapon => weapon.handsToWield === 2));
