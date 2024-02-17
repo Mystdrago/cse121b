@@ -23,7 +23,7 @@ const displayWeapons = (weapons) => {
 
 /* async getWeapons Function using fetch()*/
 const getWeapons = async () => {
-    const response = await fetch("cse121b/JSON/weapons.json");
+    const response = await fetch("JSON/weapons.json");
     
     weaponList = await response.json();
     
