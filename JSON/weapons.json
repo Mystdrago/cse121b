@@ -13,7 +13,7 @@
         "weaponName": "Short Sword",
         "imageUrl": "images/Shortsword.jpg",
         "type": "Swords",
-        "damage": "Crushing",
+        "damage": "Tearing",
         "range": 1,
         "handsToWield": 1,
         "damageAmount": 2,
@@ -42,7 +42,7 @@
     {
         "weaponName": "Bo Staff",
         "imageUrl": "images/Bo-staff.jpg",
-        "type": "Staves",
+        "type": "Staves/Clubs",
         "damage": "Crushing",
         "range": 2,
         "handsToWield": 2,
@@ -52,7 +52,7 @@
     {
         "weaponName": "Club",
         "imageUrl": "images/Club.jpg",
-        "type": "Staves",
+        "type": "Staves/Clubs",
         "damage": "Crushing",
         "range": 1,
         "handsToWield": 2,

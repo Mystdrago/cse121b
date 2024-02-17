@@ -8,7 +8,7 @@ const displayWeapons = (weapons) => {
         const article = document.createElement('article');
         
         const h3 = document.createElement('h3');
-        h3.textContent = weapon.weaponName + ", Range:" + weapon.range + " Squares, Damage: " + weapon.damage + "d6, Price:" + weapon.price + "Gp.";
+        h3.textContent = weapon.weaponName + ", Range: " + weapon.range + " Square(s), Damage: " + weapon.damageAmount + "d6 " + weapon.damage + ", Price: " + weapon.price + "Gp.";
         
         const img = document.createElement('img');
         img.src = weapon.imageUrl;
@@ -46,59 +46,44 @@ const filterweapons = (weapons) => {
         default:
             displayWeapons(weapons);
             break;
-        case  "One Handed":
+        case "One Handed":
             displayWeapons(weapons.filter(weapon => weapon.handsToWield === 1));
             break;
-        case  "Two Handed":
+        case "Two Handed":
             displayWeapons(weapons.filter(weapon => weapon.handsToWield === 2));
             break;
-        case  "Short Range":
+        case "Short Range":
             displayWeapons(weapons.filter(weapon => weapon.range < 2));
             break;
-        case  "Medium Range":
+        case "Medium Range":
             displayWeapons(weapons.filter(weapon => weapon.range === 2));
             break;
-        case  "Long Range":
+        case "Long Range":
             displayWeapons(weapons.filter(weapon => weapon.range > 2));
             break;
-        case  "Tearing Damage": 
+        case "Tearing Damage":
             displayWeapons(weapons.filter(weapon => weapon.damage.includes("Tearing")));
             break;
-        case "Penetrating Damage": 
+        case "Penetrating Damage":
             displayWeapons(weapons.filter(weapon => weapon.damage.includes("Penetrating")));
             break;
-        case "Crushing Damage": 
+        case "Crushing Damage":
             displayWeapons(weapons.filter(weapon => weapon.damage.includes("Crushing")));
             break;
-        case "Swords": 
-            displayWeapons(weapons.filter(weapon => weapon.type.includes("Swords")));
+        case "Swords":
+            displayWeapons(weapons.filter(weapon => weapon.type && weapon.type.includes("Swords")));
             break;
         case "Polearms":
-            displayWeapons(weapons.filter(weapon => weapon.types.includes("Polearms")));
+            displayWeapons(weapons.filter(weapon => weapon.type && weapon.type.includes("Polearms")));
             break;
         case "Staves/Clubs":
-            displayWeapons(weapons.filter(weapon => weapon.types.includes("Staves")));
+            displayWeapons(weapons.filter(weapon => weapon.type && weapon.type.includes("Staves")));
             break;
         case "Bows":
-            displayWeapons(weapons.filter(weapon => weapon.types.includes("Bows")));
+            displayWeapons(weapons.filter(weapon => weapon.type && weapon.type.includes("Bows")));
             break;
         case "Crossbows":
-            displayWeapons(weapons.filter(weapon => weapon.types.includes("Crossbows")));
-            break;
-        case "Not Swords":
-            displayWeapons(weapons.filter(weapon => !weapon.types.includes("Swords")));
-            break;
-        case "Not Polearms":
-            displayWeapons(weapons.filter(weapon => !weapon.types.includes("Polearms")));
-            break;
-        case "Not Staves/Clubs":
-            displayWeapons(weapons.filter(weapon => !weapon.types.includes("Staves/Clubs")));
-            break;
-        case "Not Bows":
-            displayWeapons(weapons.filter(weapon => !weapon.types.includes("Bows")));
-            break;
-        case "Not Crossbows":
-            displayWeapons(weapons.filter(weapon => !weapon.types.includes("Crossbows")));
+            displayWeapons(weapons.filter(weapon => weapon.type && weapon.type.includes("Crossbows")));
             break;
     }
 };
