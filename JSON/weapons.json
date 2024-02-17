@@ -1,0 +1,102 @@
+[
+    {
+        "weaponName": "Long Sword",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hand-and-a-Half_Sword_MET_DP146428.jpg",
+        "type": "Swords",
+        "damage": "Tearing",
+        "range": 1,
+        "handsToWield": 1,
+        "damageAmount": 5,
+        "price": 5
+    },
+    {
+        "weaponName": "Short Sword",
+        "imageUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.goblinsmith.com%2Fcdn%2Fshop%2Fproducts%2FNorrick-Shortsword-3.jpg%3Fv%3D1651037875&tbnid=XrQ8o81aBI-qwM&vet=12ahUKEwjmuKKPorOEAxVdETQIHXT2ANcQMygMegUIARCIAQ..i&imgrefurl=https%3A%2F%2Fwww.goblinsmith.com%2Fproducts%2Fnorrick-shortsword&docid=M30SE1MlCfB6uM&w=697&h=697&q=shortsword&client=opera-gx&ved=2ahUKEwjmuKKPorOEAxVdETQIHXT2ANcQMygMegUIARCIAQ",
+        "type": "Swords",
+        "damage": "Crushing",
+        "range": 1,
+        "handsToWield": 1,
+        "damageAmount": 2,
+        "price": 2
+    },
+    {
+        "weaponName": "Spear",
+        "imageUrl": "https://m.media-amazon.com/images/I/51rUoX7PaIL.jpg",
+        "type": "Polearms",
+        "damage": "Penetrating",
+        "range": 2,
+        "handsToWield": 2,
+        "damageAmount": 2,
+        "price": 2
+    },
+    {
+        "weaponName": "Poleaxe",
+        "imageUrl": "https://www.darkknightarmoury.com/wp-content/uploads/2019/10/600640.jpg",
+        "type": "Polearms",
+        "damage": "Tearing",
+        "range": 2,
+        "handsToWield": 2,
+        "damageAmount": 5,
+        "price": 5
+    },
+    {
+        "weaponName": "Bo Staff",
+        "imageUrl": "https://www.seka-sports.com/cdn/shop/products/wooden-red-bo-staff_1200x1200.jpg?v=1572972688",
+        "type": "Staves",
+        "damage": "Crushing",
+        "range": 2,
+        "handsToWield": 2,
+        "damageAmount": 2,
+        "price": 2
+    },
+    {
+        "weaponName": "Club",
+        "imageUrl": "https://as1.ftcdn.net/v2/jpg/02/73/71/18/1000_F_273711876_HVdbERjXLbwdaEGpsjVQGwrvXN6mGGFO.jpg",
+        "type": "Staves",
+        "damage": "Crushing",
+        "range": 1,
+        "handsToWield": 2,
+        "damageAmount": 5,
+        "price": 4
+    },
+    {
+        "weaponName": "Short Bow",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB0iNfBC8kjatCyib2LGAGLLpCO8lJwASIww&usqp=CAU",
+        "type": "Bows",
+        "damage": "Penetrating",
+        "range": 5,
+        "handsToWield": 2,
+        "damageAmount": 2,
+        "price": 5
+    },
+    {
+        "weaponName": "Long Bow",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFImGZjojjJsJqLn5MppTMJPX1HRJ4lcrgHA&usqp=CAU",
+        "type": "Bows",
+        "damage": "Penetrating",
+        "range": 7,
+        "handsToWield": 2,
+        "damageAmount": 5,
+        "price": 10
+    },
+    {
+        "weaponName": "Light Crossbow",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLW55-yb2EhecSYv58ZeBIlw92867M9plMzQ&usqp=CAU",
+        "type": "Crossbows",
+        "damage": "Penetrating",
+        "range": 5,
+        "handsToWield": 1,
+        "damageAmount": 2,
+        "price": 6
+    },
+    {
+        "weaponName": "Heavy Crossbow",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNFxhKAP6Q5yE7KptW4Ks1oSBULSRzuxi0HXOgJWDEgPXciVkekPawLGE4CdPPJ3rP3qU&usqp=CAU",
+        "type": "Crossbows",
+        "damage": "Penetrating",
+        "range": 7,
+        "handsToWield": 2,
+        "damageAmount": 5,
+        "price": 11
+    }
+]
